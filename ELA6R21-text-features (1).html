@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ELA.6.R.2.1 Text Sections and Features - FAST Practice</title>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#172554;--bg:#eaf1fb;--line:#c9d6ea;--teal:#0d9488;--sun:#facc15}
+*{box-sizing:border-box}body{margin:0;font-family:Lexend,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+.wrap{max-width:820px;margin:0 auto;padding:20px 14px 40px}
+header{background:var(--ink);color:#fff;border-radius:16px;padding:22px;margin-bottom:14px}
+header h1{margin:0 0 4px;font-size:clamp(1.3rem,4vw,1.9rem)}header p{margin:0;opacity:.85;font-size:.9rem}
+main{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px}
+details{background:var(--bg);border-radius:10px;padding:10px 14px;margin-bottom:14px}summary{cursor:pointer;font-weight:700}
+ol{padding-left:22px}li{margin:4px 0}
+button{font:inherit;cursor:pointer;color:inherit}button:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+.pass{background:#fffbea;border:1px solid #f3e3a1;border-left:6px solid var(--sun);border-radius:8px;padding:14px 16px;margin:10px 0}
+.pass h4{margin:0 0 8px}
+.btn{background:var(--ink);color:#fff;border:0;border-radius:10px;padding:10px 18px;margin-top:10px}
+.meta{font-size:.85rem;opacity:.7;margin:12px 0 0}.opts{display:grid;gap:8px;margin:8px 0 14px}
+.opt{text-align:left;background:#fff;border:2px solid var(--line);border-radius:10px;padding:11px}
+.opt:hover:not(:disabled){border-color:var(--teal)}.opt.sel{border-color:var(--ink);background:#e0e7ff}
+.opt.ok{background:#dcfce7;border-color:#16a34a}.opt.no{background:#fee2e2;border-color:#dc2626}
+.fb{border-radius:8px;padding:10px;margin:8px 0}.fb.ok{background:#dcfce7}.fb.no{background:#fef9c3}.done{text-align:center}
+</style></head><body><div class="wrap">
+<header><h1>Text Sections and Features</h1><p>ELA.6.R.2.1: Explain how individual text sections and/or features convey meaning in texts.<br>Tier 1 FAST-style practice</p></header>
+<main aria-live="polite"><details><summary>Strategy reminder</summary><p id="goal"></p><ol id="steps"></ol></details>
+<div class="pass" id="pass"></div><div id="prac"></div></main></div>
+<script>
+/* ===== EDIT CONTENT HERE: goal, steps, p (passage), qs. Each question has parts: q, o (choices), a (answer text, or a list for Select TWO) ===== */
+const L={"goal": "Explain how headings, bold terms, captions, sidebars, and sections build the meaning of an informational text.", "steps": ["Notice each feature or section and name its job.", "Ask how it helps the reader understand the main idea.", "Connect the feature to a detail in the text."], "p": "<h4>Coral Reefs: Rainforests of the Sea</h4><b>What Is a Reef?</b><br>A coral reef is built by tiny animals called <b>polyps</b>. Over thousands of years, polyps leave behind hard skeletons that pile up into huge structures.<br><i>Caption: Polyps attach to rock and build skeletons that grow outward.</i><br><b>Why Reefs Matter</b><br>Reefs cover less than one percent of the ocean floor, yet about a quarter of all sea life depends on them for food and shelter. Reefs also shield coastlines from strong waves.<br><b>Threats to Reefs</b><br>Warming water can cause <b>bleaching</b>, when corals lose the algae that give them color and food.<br><i>Did You Know? Some reefs are large enough to be seen from space.</i>", "qs": [{"e": "Headings preview what a section is about.", "parts": [{"q": "What is the purpose of the heading \"Why Reefs Matter\"?", "a": "It signals that the section explains the importance of reefs", "o": ["It signals that the section explains the importance of reefs", "It tells how reefs are built", "It describes dangers to reefs", "It introduces a new author"]}]}, {"e": "Bold words mark important vocabulary.", "parts": [{"q": "Why is the word <b>polyps</b> in bold?", "a": "It is a key term that the text explains", "o": ["It is a key term that the text explains", "It is the title of the article", "It is the author's opinion", "It is the main idea"]}]}, {"e": "The caption illustrates how skeletons build up into a reef.", "parts": [{"q": "What does the caption add to the first section?", "a": "It shows how polyps build a reef", "o": ["It shows how polyps build a reef", "It explains why reefs are in danger", "It tells where reefs are found", "It compares reefs to rainforests"]}, {"q": "Which sentence does the caption best support?", "a": "Over thousands of years, polyps leave behind hard skeletons that pile up into huge structures.", "o": ["Over thousands of years, polyps leave behind hard skeletons that pile up into huge structures.", "Reefs also shield coastlines from strong waves.", "Warming water can cause bleaching.", "Reefs cover less than one percent of the ocean floor."]}]}, {"e": "One explains the value of reefs; the other explains the danger they face.", "parts": [{"q": "Which TWO sections best help a reader understand why reefs should be protected?", "a": ["Why Reefs Matter", "Threats to Reefs"], "o": ["Why Reefs Matter", "Threats to Reefs", "What Is a Reef?", "The caption", "The \"Did You Know?\" sidebar"]}]}, {"e": "Each section adds a new part of the central idea.", "parts": [{"q": "How does the order of the sections help build the article's meaning?", "a": "It moves from what reefs are to why they matter to what harms them", "o": ["It moves from what reefs are to why they matter to what harms them", "It moves from newest facts to oldest facts", "It compares two different reefs", "It lists steps for building a reef"]}]}, {"e": "The sidebar adds a fun fact. The importance of reefs is shown in the \"Why Reefs Matter\" section.", "parts": [{"q": "What is the purpose of the \"Did You Know?\" sidebar?", "a": "To add an interesting extra fact outside the main explanation", "o": ["To add an interesting extra fact outside the main explanation", "To define a key term", "To state the main idea", "To describe a threat to reefs"]}, {"q": "Which sentence from the passage best shows the importance of reefs to sea life?", "a": "About a quarter of all sea life depends on them for food and shelter.", "o": ["About a quarter of all sea life depends on them for food and shelter.", "Some reefs are large enough to be seen from space.", "Polyps attach to rock.", "Corals lose the algae that give them color."]}]}]};
+const $=id=>document.getElementById(id);
+const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const Q=L.qs;let score=0,missed=[];
+$('goal').textContent=L.goal;$('steps').innerHTML=L.steps.map(s=>'<li>'+s+'</li>').join('');$('pass').innerHTML=L.p;
+function show(i){
+  const it=Q[i],multi=p=>Array.isArray(p.a);let locked=false;
+  it.parts.forEach(p=>p.s=shuffle(p.o));const sel=it.parts.map(()=>new Set());
+  $('prac').innerHTML='<p class="meta">Question '+(i+1)+' of '+Q.length+'</p>'+(it.c?'<div class="pass">'+it.c+'</div>':'')+
+   it.parts.map((p,k)=>'<p><b>'+(it.parts.length>1?'Part '+'AB'[k]+': ':'')+p.q+'</b>'+(multi(p)?' <i>(Select TWO.)</i>':'')+'</p><div class="opts" data-k="'+k+'">'+p.s.map((o,j)=>'<button class="opt" data-j="'+j+'">'+o+'</button>').join('')+'</div>').join('')+'<div id="fb"></div><button class="btn" id="go">Submit answer</button>';
+  document.querySelectorAll('.opts').forEach(g=>{const k=+g.dataset.k,p=it.parts[k],s=sel[k];
+    g.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{if(locked)return;const j=+b.dataset.j;
+      if(multi(p)){s.has(j)?s.delete(j):(s.size<2&&s.add(j))}else{s.clear();s.add(j)}
+      g.querySelectorAll('.opt').forEach((x,m)=>x.classList.toggle('sel',s.has(m)))})});
+  $('go').onclick=()=>{
+    if(locked){if(i+1<Q.length)show(i+1);else end();return}
+    if(it.parts.some((p,k)=>sel[k].size!==(multi(p)?2:1))){$('fb').innerHTML='<div class="fb no">Answer every part before you submit.</div>';return}
+    locked=true;let all=true;
+    it.parts.forEach((p,k)=>{const ans=multi(p)?p.a:[p.a];
+      const picked=[...sel[k]].map(j=>p.s[j]);if(!(picked.length===ans.length&&picked.every(x=>ans.includes(x))))all=false;
+      document.querySelectorAll('.opts')[k].querySelectorAll('.opt').forEach((b,j)=>{b.disabled=true;b.classList.remove('sel');
+        if(ans.includes(p.s[j]))b.classList.add('ok');else if(sel[k].has(j))b.classList.add('no')})});
+    if(all)score++;else missed.push(i+1);
+    $('fb').innerHTML='<div class="fb '+(all?'ok':'no')+'">'+(all?'✓ Correct! ':'✗ Not quite. ')+it.e+'</div>';
+    $('go').textContent=i+1<Q.length?'Next question':'See my results';
+  };
+}
+function end(){$('prac').innerHTML='<div class="done"><h3>Practice complete</h3><p><b>'+score+' of '+Q.length+'</b> correct.</p><p>'+(missed.length?'Review question'+(missed.length>1?'s ':' ')+missed.join(', ')+' and look back at the passage for evidence.':'You got every question right!')+'</p><button class="btn" id="rt">Try again</button></div>';
+  $('rt').onclick=()=>{score=0;missed=[];show(0)}}
+show(0);
+</script></body></html>
